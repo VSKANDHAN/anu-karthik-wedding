@@ -310,7 +310,6 @@ footer a{
     }
     .intro{
         flex-direction: column-reverse;
-        margin-top: 2px;
     }
 
 
@@ -348,6 +347,7 @@ footer a{
         letter-spacing: 8px;
         font-size: 20px;
         margin-bottom: 30px;
+        margin-top: 20px;
     }
     .intro-img{
         width: 100%;
@@ -377,10 +377,14 @@ footer a{
     letter-spacing: 5px;
     
     }
+    #events{
+        margin-top: 20vh;
+    }
     .events{
         flex-direction: column;
         width: 90%;
         padding-top: 10px;
+        margin-top: 2vh;
     }
     .tab{
         width: 100%;
