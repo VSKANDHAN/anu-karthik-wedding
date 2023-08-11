@@ -294,6 +294,7 @@ footer a{
     body{
         background-image: url(./assets/homebg1.jpg);
 background-attachment: fixed;
+height: 100vh;
     }
     .navbar-brand{
         font-family: 'Great Vibes', cursive;
