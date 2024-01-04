@@ -35,7 +35,7 @@
     background-color: #426e81;
 }
 body{
-    background-image: url(./assets/homebg.jpg);
+    background-image: url(./SP_assets/homebg.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -44,7 +44,7 @@ body{
 }
 @media (min-width:992px) {
     body{
-        background-image: url(./assets/homebg.jpg);
+        background-image: url(./SP_assets/homebg.jpg);
         background-size:100% ;
      
 
@@ -160,7 +160,7 @@ width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./assets/ak-min.png);
+    background-image: url(./SP_assets/SP_intro_Pic.png);
     background-size: 350px;
     background-repeat: no-repeat;
     background-position: center;
@@ -292,7 +292,7 @@ footer a{
 @media(max-width:768px) {
 
     body{
-        background-image: url(./assets/homebg1.jpg);
+        background-image: url(./SP_assets/homebg1.jpg);
 background-attachment: fixed;
 height: 100vh;
     }
