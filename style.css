@@ -403,11 +403,10 @@ height: 100vh;
        display: flex;
 align-items: center;
 justify-content: center; 
-padding-left: 20px;  
 padding-top: 20px;  
     }
     .intro-img img{
-        width:160%;
+        width:90%;
         display: block;
         margin: auto;
     
