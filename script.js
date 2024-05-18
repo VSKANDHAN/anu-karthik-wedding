@@ -29,8 +29,18 @@ $(document).ready(function () {
     // Call the handleScrollAnimation function on page load
     handleScrollAnimation();
   });
-  
+  window.addEventListener('load', function() {
+    const preloader = document.getElementById('preloader');
+    const content = document.getElementById('mainContent');
 
+    // Ensure preloader is shown for at least 2 seconds
+    setTimeout(function() {
+        preloader.style.display = 'none';
+        content.style.display = 'block';
+    }, 2000); // 2000 milliseconds = 2 seconds
+});
+  
+  
 
 
 

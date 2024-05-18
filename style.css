@@ -2,7 +2,26 @@
     margin: 0;
     padding: 0;
 }
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #fff; /* Background color for preloader */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
 
+}
+#preloader img{
+    width: 50%;
+    margin-left: 80px;
+   
+}
+ 
 
 @font-face {
     font-family: 'wellrockslabboldregular';
@@ -154,7 +173,7 @@ width: 100%;
     color: #4c5e67;
     letter-spacing: 8px;
 }
-.intro-img{
+/* .intro-img{
     width: 50%;
     text-align: center;
     display: flex;
@@ -164,11 +183,11 @@ width: 100%;
     background-size: 350px;
     background-repeat: no-repeat;
     background-position: center;
-}
-.intro-img img{
+} */
+/* .intro-img img{
 width: 94%;
 
-}
+} */
 .intro-content button{
     background-color: #d0976c;
     border: none;
@@ -207,10 +226,10 @@ color: white;
 border-radius: 4px;
 
 }
-.tab:nth-child(1){
+/* .tab:nth-child(1){
     background-color: #548cafac;
-}
-.tab:nth-child(2){
+} */
+.tab{
     background-color:#dd757e;
 }
 .event{
@@ -312,8 +331,16 @@ height: 100vh;
     }
     .intro{
         flex-direction: column-reverse;
+        display: flex;
+        width: 90%;
+        margin: auto;
+        margin-top:4vh;
+    
+        /* height: 70vh; */
+        justify-content:center;
+        align-items: center;
     }
-
+    
 
 
     .intro-content{
@@ -335,14 +362,15 @@ height: 100vh;
         font-family: 'wellrockslabboldregular';
         background-color: #d0976c;
         border-radius: 50%;
-        font-size: 40px;
-        width: 50px;
-        height: 50px;
+        padding: 4px;
+        font-size: 32px;
+        /* width: 50px;
+        height: 50px; */
         align-self: center;
         color: white;
         margin: auto;
         margin-bottom: 14px;
-        font-weight:100;
+        font-weight:300;
     }
     .intro h5{
         color: #536a75;
@@ -352,14 +380,17 @@ height: 100vh;
         margin-top: 20px;
     }
     .intro-img{
-        width: 100%;
-        text-align: center;
-        background-size: 240px;
-        background-repeat: no-repeat;
-        background-position: center;
+       width: 100%;
+       display: flex;
+align-items: center;
+justify-content: center; 
+padding-left: 20px;  
+padding-top: 20px;  
     }
     .intro-img img{
-    width: 360px;
+        width:160%;
+        display: block;
+        margin: auto;
     
     }
     .intro-content button{
