@@ -37,7 +37,7 @@ $(document).ready(function () {
     setTimeout(function() {
         preloader.style.display = 'none';
         content.style.display = 'block';
-    }, 600); // 2000 milliseconds = 2 seconds
+    }, 900); // 2000 milliseconds = 2 seconds
 });
   
   
