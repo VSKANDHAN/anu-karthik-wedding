@@ -13,12 +13,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:start;
+    align-items:center;
 
 }
 #preloader img{
-    width: 50%;
-    margin-left: 80px;
+    width: 20%;
+    /* margin-left: 80px; */
    
 }
  
@@ -314,6 +314,25 @@ footer a{
         background-image: url(./RP_assets/homebg1.jpg);
 background-attachment: fixed;
 height: 100vh;
+    }
+    #preloader {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background-color: #fff; /* Background color for preloader */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:start;
+    
+    }
+    #preloader img{
+        width: 50%;
+        margin-left: 80px;
+       
     }
     .navbar-brand{
         font-family: 'Great Vibes', cursive;
