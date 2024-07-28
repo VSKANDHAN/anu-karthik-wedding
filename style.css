@@ -35,7 +35,7 @@
     background-color: #426e81;
 }
 body{
-    background-image: url(./assets/homebg.jpg);
+    background-image: url(./AK_assets/bg2.png);
     background-size:cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -316,8 +316,9 @@ footer a{
 @media(max-width:768px) {
 
     body{
-        background-image: url(./assets/homebg1.jpg);
-background-attachment: fixed;
+         background-image: url(./AK_assets/bg2.png);
+        backdrop-filter: blur(4px);
+        background-attachment: fixed;
 height: 100vh;
     }
     .navbar-brand{
@@ -385,7 +386,7 @@ height: 100vh;
         background-repeat: no-repeat;
         background-position: center;
     }
-    .intro-img img{
+    .intro-img img{ 
     width: 360px;
     position: relative;
     
